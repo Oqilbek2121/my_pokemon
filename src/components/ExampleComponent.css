@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 99%;
+    height: 100vh;
+    background: #e0e0e0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+header .row .card {
+    background: none;
+}
+
+header .row .card h5 {
+    font-size: 40px;
+}
+
+header .row .btn1 {
+    margin-left: 180px;
+}
+
+header .row .card-body button {
+    width: 150px;
+    height: 55px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 39px;
+    transition: 0.6s;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  17px 17px 35px #606060,
+                 -17px -17px 35px #ffffff;
+}
+
+header .row .card-body button ion-icon {
+    margin-top: 10px;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+header .row .card-body button:hover {
+    border-radius: 57px;
+    background: #e0e0e0;
+    transition: 0.6s;
+    box-shadow: inset 19px 19px 37px #b5b5b5,
+                inset -19px -19px 37px #ffffff;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container input {
+    outline: none;
+    padding: 25px;
+    width: 280px;
+    height: 75px;
+    margin-top: -10px;
+    color: #434141;
+    font-size: 25px;
+    border-radius: 53px;
+    background: #e0e0e0;
+    box-shadow: inset 14px 14px 28px #969696,
+                inset -14px -14px 28px #ffffff;
+}
+
+section .container button {
+    width: 80px;
+    height: 75px;
+    margin-left: 35px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  12px 12px 24px #797979,
+                 -12px -12px 24px #ffffff;
+}
+
+section .container button ion-icon {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+section .container button:hover {
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: inset 12px 12px 24px #797979,
+                inset -12px -12px 24px #ffffff;
+}
+
+footer .container .card {
+    width: 100%;
+    height: 380px;
+    background: none;
+    border-radius: 60px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  8px 8px 16px #676767,
+                 -8px -8px 16px #ffffff;
+}
+
+footer .container .card .img-fluid {
+    width: 480px;
+    height: 280px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .card-body {
+    margin: 25px;
+}
+
+footer .container .card h1 {
+    text-transform: uppercase;
+    color: #676767;
+}
+
+footer .container .card h3 span {
+    color: #676767;
+}
